@@ -1,0 +1,47 @@
+site_name: Moist Ink Blog
+site_url: https://blog.moist.ink
+theme:
+  name: material
+  logo: ass/png/white-logo.png
+  favicon: ass/png/black-logo.png
+  features:
+    - header.autohide
+    - navigation.top
+  palette: # 
+    - scheme: slate # 
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: light
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+# plugins:
+#   - social
+extra:
+  disqus: blog-moist-ink
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  social:
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/dorfeuille
+      name: Ted on Twitch
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/tediferous/
+      name: Ted on Instagram
+    - icon: fontawesome/brands/reddit
+      link: https://reddit.com/u/dorfeuille
+      name: Ted on Reddit
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tediferous
+      name: Ted on Twitter
+extra_css:
+  - stylesheets/extra.css
+copyright: Copyright &copy; 2022 MOIST.INK
+# repo_url: https://github.com/squidfunk/mkdocs-material
+# repo_name: squidfunk/mkdocs-material
+
+
